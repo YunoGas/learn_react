@@ -1,0 +1,16 @@
+.block{
+    width: 90%;
+    border: 0.5px solid #e5e5e5;
+    background: #fff7f7;
+    padding: 5px;
+    flex:1;
+    margin: 5px;
+}
+.block>.active{
+    background: #ffffff;
+    border: 1px solid black;
+
+}
+
+
+

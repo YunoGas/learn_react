@@ -1,0 +1,50 @@
+.dialogs{
+display: grid;
+    grid-template-columns: 4fr 12fr;
+}
+
+.dialogs{
+
+}
+.active{
+    font-weight: bold;
+}
+
+.messages{
+padding: 15px;
+}
+.messages .message{
+
+}
+.send_box{
+    box-shadow: 1px 1px 1px #542b61;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-top: 5px;
+    display: flex;
+    padding: 9px;
+    background: #d4bcdc;
+    position:relative;
+
+}
+.text{
+    margin-left: 20px;
+}
+.text textarea{
+    width: 300px;
+    background: #ead7f1;
+    margin:5px;
+    padding-left: 10px;
+    outline: none;
+    -moz-appearance: none;
+    resize: none;
+}
+.button{
+    padding: 5px;
+    padding-left: 8px;
+
+    border: 1px solid #dfcce5;
+    border-radius: 10px;
+    background: #e0d0e5;
+}

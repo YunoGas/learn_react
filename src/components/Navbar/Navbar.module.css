@@ -1,0 +1,52 @@
+.nav {
+    background-color: rgb(255, 255, 240);
+    grid-area: n;
+    border: solid rgb(210, 210, 87) 1px;
+    border-collapse: separate;
+    transition: background-color 2s;
+    border-bottom: 5px solid #f3efec;
+    border-left: 3px solid #e5ded9;
+}
+
+.nav a:visited {
+    color: inherit;
+}
+
+.nav a:active {
+    color: #68592c;
+    text-shadow: 2px 2px 1px rgba(219, 215, 212, 0.91);
+
+}
+
+.nav div {
+    border-radius: 2px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 7px;
+    border: solid rgb(255, 255, 246) 1px;
+    margin: 5px;
+    background-color: rgb(255, 255, 246);
+    transition: border 0.03s;
+    transition: box-shadow 0.4s;
+    box-shadow: 0 1px 4px rgb(204, 206, 195);
+
+}
+
+.nav .active a:visited {
+    color: #aca290;
+    text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.62);
+}
+
+.nav div .active {
+    color: #aca290;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.62);
+}
+
+.nav div:hover {
+
+    background: linear-gradient(0.25turn, rgb(255, 255, 246), rgb(255, 255, 233));
+    border: solid rgb(223, 223, 210) 1px;
+    border-radius: 3px;
+    border-right: solid rgb(228, 186, 186) 2px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(217, 224, 195);
+}

@@ -1,0 +1,25 @@
+.posts{
+padding-right: 10px;
+}
+.block{
+    margin-left: 10px;
+
+}
+.textarea_block{
+    display: flex;
+    background: #bba0a0;
+    margin: 5px;
+    padding: 15px;
+    margin-right: 25px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px rgba(156, 140, 140, 0.71);
+}
+.textarea_block textarea{
+    outline: none;
+    -moz-appearance: none;
+    border: 1px solid #999;
+    resize: none;
+    width: 50%;
+    max-height: 350px;
+
+}

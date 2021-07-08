@@ -1,0 +1,29 @@
+.block {
+    color: #2c872e;
+    border: 1px solid #8b8b8b;
+    border-radius: 9px;
+    position: relative;
+    width: fit-content;
+    padding: 8px;
+    position: relative;
+}
+.left{
+
+    color: #1d0000;
+    right: -30px;
+
+    background: #fcffff;
+}
+.right{
+    background: #f8f6f6;
+    left: 350px;
+    color: #010149;
+
+}
+.time{
+    font-size:8px;
+    color: darkgray;
+}
+.time:hover{
+    color: #535353;
+}
