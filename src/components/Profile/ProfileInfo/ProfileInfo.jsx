@@ -23,7 +23,7 @@ const ProfileInfo = () => {
 
                     <div className={css.disc_point}>
                         <div className={css.disc_name}>Interests</div>
-                        <div className={css.disc_content}>Reactgi</div>
+                        <div className={css.disc_content}>React | Node.js | Django</div>
                     </div>
 
                 </div>
