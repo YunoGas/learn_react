@@ -21,6 +21,11 @@ const ProfileInfo = () => {
                         <div className={css.disc_content}>Moscow Polytech</div>
                     </div>
 
+                    <div className={css.disc_point}>
+                        <div className={css.disc_name}>Interests</div>
+                        <div className={css.disc_content}>Reactgi</div>
+                    </div>
+
                 </div>
             </div>
         </div>
