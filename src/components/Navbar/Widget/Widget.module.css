@@ -1,0 +1,40 @@
+.block{
+    align-content: center;
+    text-align: center;
+    padding:1px;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: grab;
+}
+.block:hover{
+    box-shadow: 2px 2px 2px #c6c5c1;
+    border: 1px dotted black;
+    margin: 11px;
+}
+
+.block:active{
+    box-shadow: 2px 2px 2px #a19b85;
+    cursor:grabbing;
+}
+.block:active .title{
+    background: #bdb9d9;
+}
+.content_line{
+
+    background: #c9d3ea;
+    padding:2px;
+    margin: 2px;
+}
+.title{
+text-shadow: 1px 1px 1px #9e9b9b;
+    background: #dbd7f1;
+    border: 1px solid #e5def1;
+    border-bottom: 1px solid grey;
+    padding:2px;
+    margin: 2px;
+}
+.content{background: #e3f1eb;
+    padding:1px;
+    margin: 1px;
+}

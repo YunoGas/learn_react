@@ -19,6 +19,12 @@ let messages =[
 ]
 
 let state ={
+    Navbar:{
+        widgets:[
+            {title:'Погода', lines:['Today: 22+', 'Tomorrow: 27+']},
+            {title:'Валюты', lines:['Доллар: 75р', 'Евро: 82р']}
+        ]
+    },
     profilePage:{
         posts: [
             {text:'Hello its my blog', likes:'5', dislikes:'9'},

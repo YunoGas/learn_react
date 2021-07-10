@@ -14,7 +14,7 @@ const App = (props) => {
       <BrowserRouter>
           <div className="app-wrapper">
               <Header/>
-              <Navbar/>
+              <Navbar data={props.data.Navbar}/>
               <div className="app-wrapper-content">
                   {/*<Route path='/dialogs' component={Dialogs}/>
                   <Route path='/profile' component={Profile}/>
@@ -22,8 +22,8 @@ const App = (props) => {
                   <Route path='/musics' component={Musics}/>
                   <Route path='/settings' component={Settings}/>*/}
 
-                  <Route path='/dialogs' render={()=> <Dialogs data={props.state.dialogsPage}/> }/>
-                  <Route path='/profile' render={()=> <Profile data={props.state.profilePage}/> }/>
+                  <Route path='/dialogs' render={()=> <Dialogs data={props.data.dialogsPage}/> }/>
+                  <Route path='/profile' render={()=> <Profile data={props.data.profilePage}/> }/>
                   <Route path='/news' render={()=> <News/> }/>
                   <Route path='/musics' render={()=> <Musics/> }/>
                   <Route path='/settings' render={()=> <Settings/> }/>

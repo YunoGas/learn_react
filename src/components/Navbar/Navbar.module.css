@@ -8,6 +8,19 @@
     border-left: 3px solid #e5ded9;
 }
 
+.addWidg svg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.addWidg svg:active{
+    background: #f0e9f1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
 .nav a:visited {
     color: inherit;
 }
