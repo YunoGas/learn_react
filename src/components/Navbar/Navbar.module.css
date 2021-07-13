@@ -32,6 +32,7 @@
 }
 
 .nav div {
+
     border-radius: 2px;
     font-family: 'Press Start 2P', cursive;
     padding: 7px;
@@ -43,13 +44,19 @@
     box-shadow: 0 1px 4px rgb(204, 206, 195);
 
 }
+.itemLink{
+    cursor: pointer;
+}
 
 .nav .active a:visited {
+
+
     color: #aca290;
     text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.62);
 }
 
 .nav div .active {
+
     color: #aca290;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.62);
 }
